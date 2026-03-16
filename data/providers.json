@@ -1,0 +1,119 @@
+[
+  {
+    "id": "openai",
+    "name": "OpenAI",
+    "type": "official",
+    "website": "https://platform.openai.com",
+    "region": "global",
+    "payment": ["credit_card"],
+    "logo": "🟢"
+  },
+  {
+    "id": "anthropic",
+    "name": "Anthropic",
+    "type": "official",
+    "website": "https://console.anthropic.com",
+    "region": "global",
+    "payment": ["credit_card"],
+    "logo": "🟤"
+  },
+  {
+    "id": "google",
+    "name": "Google AI",
+    "type": "official",
+    "website": "https://aistudio.google.com",
+    "region": "global",
+    "payment": ["credit_card"],
+    "logo": "🔵"
+  },
+  {
+    "id": "openrouter",
+    "name": "OpenRouter",
+    "type": "aggregator",
+    "website": "https://openrouter.ai",
+    "region": "global",
+    "payment": ["credit_card", "crypto"],
+    "logo": "🟣"
+  },
+  {
+    "id": "together",
+    "name": "Together AI",
+    "type": "aggregator",
+    "website": "https://together.ai",
+    "region": "global",
+    "payment": ["credit_card"],
+    "logo": "🔴"
+  },
+  {
+    "id": "fireworks",
+    "name": "Fireworks AI",
+    "type": "aggregator",
+    "website": "https://fireworks.ai",
+    "region": "global",
+    "payment": ["credit_card"],
+    "logo": "🟠"
+  },
+  {
+    "id": "groq",
+    "name": "Groq",
+    "type": "aggregator",
+    "website": "https://groq.com",
+    "region": "global",
+    "payment": ["credit_card"],
+    "logo": "⚫"
+  },
+  {
+    "id": "deepinfra",
+    "name": "DeepInfra",
+    "type": "aggregator",
+    "website": "https://deepinfra.com",
+    "region": "global",
+    "payment": ["credit_card"],
+    "logo": "🟡"
+  },
+  {
+    "id": "azure",
+    "name": "Azure OpenAI",
+    "type": "cloud",
+    "website": "https://azure.microsoft.com/openai",
+    "region": "global",
+    "payment": ["credit_card", "invoice"],
+    "logo": "🔷"
+  },
+  {
+    "id": "bedrock",
+    "name": "AWS Bedrock",
+    "type": "cloud",
+    "website": "https://aws.amazon.com/bedrock",
+    "region": "global",
+    "payment": ["credit_card", "invoice"],
+    "logo": "🔶"
+  },
+  {
+    "id": "api2d",
+    "name": "API2D",
+    "type": "proxy",
+    "website": "https://api2d.com",
+    "region": "china",
+    "payment": ["alipay", "wechat"],
+    "logo": "🇨🇳"
+  },
+  {
+    "id": "openai-sb",
+    "name": "OpenAI-SB",
+    "type": "proxy",
+    "website": "https://openai-sb.com",
+    "region": "china",
+    "payment": ["alipay", "wechat"],
+    "logo": "🇨🇳"
+  },
+  {
+    "id": "closeai",
+    "name": "CloseAI",
+    "type": "proxy",
+    "website": "https://closeai.biz",
+    "region": "china",
+    "payment": ["alipay", "wechat"],
+    "logo": "🇨🇳"
+  }
+]
