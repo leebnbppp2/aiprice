@@ -21,6 +21,7 @@ export default function RootLayout({ children }) {
               <a href="/" className="hover:text-white transition">Models</a>
               <a href="/providers" className="hover:text-white transition">Providers</a>
               <a href="/compare" className="hover:text-white transition">Compare</a>
+              <a href="/list-your-api" className="hover:text-white transition">List Your API</a>
             </div>
           </div>
         </nav>
