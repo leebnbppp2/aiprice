@@ -15,8 +15,59 @@
 body {
   background-color: var(--bg-primary);
   color: var(--text-primary);
+  font-family: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei',
+    'Noto Sans CJK SC', sans-serif;
+  font-feature-settings: 'tnum' 1, 'cv11' 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
 }
 
 .price-up { color: #22c55e; }
 .price-down { color: #ef4444; }
 .price-neutral { color: #94a3b8; }
+
+/* Hero ambient glow */
+.hero-glow {
+  position: absolute;
+  top: -40%;
+  right: -10%;
+  width: 420px;
+  height: 420px;
+  background: radial-gradient(circle, rgba(99,102,241,0.08) 0%, transparent 70%);
+  pointer-events: none;
+}
+
+/* Provider card subtle lift on focus-visible */
+.provider-card:focus-within {
+  border-color: rgba(99,102,241,0.3);
+  box-shadow: 0 0 0 1px rgba(99,102,241,0.15);
+}
+
+/* ── CJK typography polish ────────────────────────────── */
+
+/* Slightly opened tracking on Chinese headings for readability */
+[lang="zh"] h1,
+[lang="zh"] h2,
+[lang="zh"] h3 {
+  letter-spacing: 0.02em;
+  word-break: keep-all;
+}
+
+/* More generous line-height for Chinese body text */
+[lang="zh"] p,
+[lang="zh"] li,
+[lang="zh"] td,
+[lang="zh"] th {
+  line-height: 1.75;
+}
+
+/* Small badges / chips containing CJK characters need breathing room */
+.badge-cjk {
+  padding-inline: 0.625rem;
+  padding-block: 0.25rem;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  white-space: nowrap;
+}

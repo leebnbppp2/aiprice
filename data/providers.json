@@ -3,117 +3,120 @@
     "id": "openai",
     "name": "OpenAI",
     "type": "official",
-    "website": "https://platform.openai.com",
+    "website": "https://platform.openai.com/",
     "region": "global",
     "payment": ["credit_card"],
-    "logo": "🟢"
+    "brandColor": "#10A37F",
+    "initials": "OA"
   },
   {
     "id": "anthropic",
     "name": "Anthropic",
     "type": "official",
-    "website": "https://console.anthropic.com",
+    "website": "https://console.anthropic.com/",
     "region": "global",
     "payment": ["credit_card"],
-    "logo": "🟤"
+    "brandColor": "#D97757",
+    "initials": "A"
   },
   {
     "id": "google",
-    "name": "Google AI",
+    "name": "Google AI Studio",
     "type": "official",
-    "website": "https://aistudio.google.com",
+    "website": "https://aistudio.google.com/",
     "region": "global",
     "payment": ["credit_card"],
-    "logo": "🔵"
+    "brandColor": "#4285F4",
+    "initials": "G"
+  },
+  {
+    "id": "mistral",
+    "name": "Mistral AI",
+    "type": "official",
+    "website": "https://console.mistral.ai/",
+    "region": "global",
+    "payment": ["credit_card"],
+    "brandColor": "#FF7000",
+    "initials": "M"
   },
   {
     "id": "openrouter",
     "name": "OpenRouter",
     "type": "aggregator",
-    "website": "https://openrouter.ai",
+    "website": "https://openrouter.ai/",
     "region": "global",
     "payment": ["credit_card", "crypto"],
-    "logo": "🟣"
+    "brandColor": "#6366F1",
+    "initials": "OR"
   },
   {
     "id": "together",
     "name": "Together AI",
     "type": "aggregator",
-    "website": "https://together.ai",
+    "website": "https://www.together.ai/",
     "region": "global",
     "payment": ["credit_card"],
-    "logo": "🔴"
+    "brandColor": "#EF4444",
+    "initials": "T"
   },
   {
     "id": "fireworks",
     "name": "Fireworks AI",
     "type": "aggregator",
-    "website": "https://fireworks.ai",
+    "website": "https://fireworks.ai/",
     "region": "global",
     "payment": ["credit_card"],
-    "logo": "🟠"
+    "brandColor": "#F97316",
+    "initials": "F"
   },
   {
     "id": "groq",
     "name": "Groq",
     "type": "aggregator",
-    "website": "https://groq.com",
+    "website": "https://groq.com/",
     "region": "global",
     "payment": ["credit_card"],
-    "logo": "⚫"
+    "brandColor": "#F55036",
+    "initials": "G"
   },
   {
     "id": "deepinfra",
     "name": "DeepInfra",
     "type": "aggregator",
-    "website": "https://deepinfra.com",
+    "website": "https://deepinfra.com/",
     "region": "global",
     "payment": ["credit_card"],
-    "logo": "🟡"
+    "brandColor": "#FBBF24",
+    "initials": "DI"
   },
   {
     "id": "azure",
-    "name": "Azure OpenAI",
+    "name": "Azure OpenAI Service",
     "type": "cloud",
-    "website": "https://azure.microsoft.com/openai",
+    "website": "https://azure.microsoft.com/en-us/products/ai-services/openai-service/",
     "region": "global",
     "payment": ["credit_card", "invoice"],
-    "logo": "🔷"
+    "brandColor": "#0078D4",
+    "initials": "Az"
   },
   {
     "id": "bedrock",
-    "name": "AWS Bedrock",
+    "name": "Amazon Bedrock",
     "type": "cloud",
-    "website": "https://aws.amazon.com/bedrock",
+    "website": "https://aws.amazon.com/bedrock/",
     "region": "global",
     "payment": ["credit_card", "invoice"],
-    "logo": "🔶"
+    "brandColor": "#FF9900",
+    "initials": "AB"
   },
   {
     "id": "api2d",
     "name": "API2D",
     "type": "proxy",
-    "website": "https://api2d.com",
+    "website": "https://api2d.com/",
     "region": "china",
     "payment": ["alipay", "wechat"],
-    "logo": "🇨🇳"
-  },
-  {
-    "id": "openai-sb",
-    "name": "OpenAI-SB",
-    "type": "proxy",
-    "website": "https://openai-sb.com",
-    "region": "china",
-    "payment": ["alipay", "wechat"],
-    "logo": "🇨🇳"
-  },
-  {
-    "id": "closeai",
-    "name": "CloseAI",
-    "type": "proxy",
-    "website": "https://closeai.biz",
-    "region": "china",
-    "payment": ["alipay", "wechat"],
-    "logo": "🇨🇳"
+    "brandColor": "#E11D48",
+    "initials": "2D"
   }
 ]

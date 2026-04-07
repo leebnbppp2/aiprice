@@ -10,7 +10,14 @@ module.exports = {
       colors: {
         primary: '#6366f1',
         secondary: '#8b5cf6',
-      }
+      },
+      fontFamily: {
+        sans: [
+          '-apple-system', 'BlinkMacSystemFont', '"Segoe UI"', 'Roboto',
+          '"Helvetica Neue"', 'Arial', '"PingFang SC"', '"Hiragino Sans GB"',
+          '"Microsoft YaHei"', '"WenQuanYi Micro Hei"', 'sans-serif',
+        ],
+      },
     },
   },
   plugins: [],
